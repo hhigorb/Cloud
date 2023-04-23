@@ -1,0 +1,31 @@
+GCP:
+  - BigQuery
+  - Cloud Storage
+  - Cloud Pub/Sub
+  - Data Fusion
+  - Dataproc
+  - Composer
+  - Cloud Run
+  - Cloud Functions
+  - Compute Engine
+  - Cloud SQL
+  
+  
+ AWS:
+ 
+   - S3
+   - Redshift
+   - Kinesis
+   - Lambda
+   - Glue
+   - EMR
+   - CloudWatch
+   - Athena
+   - EC2
+   - DynamoDB
+   - RDS
+   - Data Pipeline
+   
+   
+   
+   
