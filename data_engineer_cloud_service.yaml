@@ -9,7 +9,7 @@ GCP:
   - Cloud Functions
   - Compute Engine
   - Cloud SQL
- AWS:
+AWS:
   - S3
   - Redshift
   - Kinesis
