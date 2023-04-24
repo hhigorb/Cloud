@@ -10,15 +10,15 @@ GCP:
   - Compute Engine
   - Cloud SQL
  AWS:
-   - S3
-   - Redshift
-   - Kinesis
-   - Lambda
-   - Glue
-   - EMR
-   - CloudWatch
-   - Athena
-   - EC2
-   - DynamoDB
-   - RDS
-   - Data Pipeline
+  - S3
+  - Redshift
+  - Kinesis
+  - Lambda
+  - Glue
+  - EMR
+  - CloudWatch
+  - Athena
+  - EC2
+  - DynamoDB
+  - RDS
+  - Data Pipeline
