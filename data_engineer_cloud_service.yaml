@@ -10,6 +10,8 @@ GCP:
   - Cloud Functions
   - Compute Engine
   - Cloud SQL
+  - Dataplex
+  - Firestore
 AWS:
   - S3
   - Redshift
