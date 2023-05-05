@@ -12,6 +12,8 @@ GCP:
   - Cloud SQL
   - Dataplex
   - Firestore
+  - Data Transfer Service
+  - Storage Transfer Service
 AWS:
   - S3
   - Redshift
