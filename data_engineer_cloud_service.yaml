@@ -14,6 +14,7 @@ GCP:
   - Firestore
   - Data Transfer Service
   - Storage Transfer Service
+  - Database Migration Service
 AWS:
   - S3
   - Redshift
