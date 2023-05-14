@@ -29,3 +29,4 @@ AWS:
   - DynamoDB
   - RDS
   - Data Pipeline
+  - Amazon Managed Workflows for Apache Airflow (MWAA)
