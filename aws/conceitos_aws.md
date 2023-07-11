@@ -57,3 +57,68 @@ Zonas locais têm acesso rápido, seguro e fácil aos demais serviços da AWS.
 Um resumo dos conceitos de Regiões e Zonas:
 
 ![Regiões e Zonas de Disponibilidade](images/image7.png 'Regiões e Zonas de Disponibilidade')
+
+---
+
+## Arquitetura Serveless
+
+Serveless (sem servidor) é uma arquitetura nativa da nuvem orientada a **eventos** e que permite transferir mais das suas responsabilidades operacionais à AWS. Ela permite criar e executar
+aplicativos e serviços sem se preocupar com a infraestrutura em que esses aplicativos estão rodando e elimina as tarefas de gerenciamento de servidores.
+
+Deixa de ser necessário tarefas como o provisionamento de servidores ou de clusters, patches, manutenção do sistema operacional e provisionamento de capacidade. Podemos criar servidores para
+praticamente qualquer tipo de aplicativo ou serviço e a AWS cuida de tudo o que for necessário para executar e escalar aplicativos com alta disponibilidade. Isso permite focar amis no desenvolvimento
+da aplicação e menos em configuração ou gerenciamento de servidores. Outros benefícios são a redução de custo e alta escalabilidade e disponibilidade da aplicação
+
+Para entender as diferenças entre uma arquitetura padrão com servidores e a Serveless, podemos usar de exemplo uma aplicação web que recebe requisições de usuários. No caso de uma arquitetura padrão,
+sempre há pelo menos 1 servidor ativo para caso algum usuário faça uma requisição, o serviço esteja no ar. Já na arquitetura Serveless, não existe um servidor online "ouvindo" as requisições.
+Quando chega uma requisição, a AWS sobe uma máquina para processá-la e depois a encerra. Com isso, só é pago pelo momento em que a máquina da AWS sobe e processa o evento. 
+
+## AWS Lambda
+
+O AWS Lambda é um serviço da Amazon que permite que você execute código sem provisionar ou gerenciar servidores. Você paga apenas pelo tempo de computação consumido. Basta carregar o código e o Lambda se 
+encarrega de todos os itens necessários para executar e permitir que o código seja escalável e com alta disponibilidade.
+
+Uma boa prática da utilização do Lambda é sempre escrever códigos enxutos, otimizados e específicos para o contexto utilizado. Pagamos por uso, então quanto mais rápido a execução do Lambda, melhor.
+
+![AWS Lambda](images/image8.png 'AWS Lambda')
+
+---
+
+![AWS Lambda](images/image9.png 'AWS Lambda')
+
+---
+
+![AWS Lambda](images/image10.png 'AWS Lambda')
+
+---
+
+![AWS Lambda](images/image11.png 'AWS Lambda')
+
+---
+
+## Como o Lambda funciona?
+
+![AWS Lambda](images/image12.png 'AWS Lambda')
+
+---
+
+![AWS Lambda](images/image13.png 'AWS Lambda')
+
+## Alguns cases reais de Arquitetura de uso do Lambda
+
+![AWS Lambda](images/image14.png 'AWS Lambda')
+
+---
+
+![AWS Lambda](images/image15.png 'AWS Lambda')
+
+## Preços do Lambda
+
+Você é cobrado pelo número de solicitações de suas funções e pela duração, o tempo ue leva para que seu código seja executado. O Lambda conta uma solicitação cada vez que começa a executar em resposta
+a uma notificação de evento ou chamada de invocação, incluindo invocações de teste do console.
+
+A duração é calculada a partir do momento em que seu código começa a ser executado até ele retornar ou encerrar, arredondando para os 100 ms mais próximos. O preço depende da quantidade de memória
+que você alocar para sua função.
+
+O único componente configurável no Lambda é a quantidade de memória que você quer para sua função. Capacidade de CPU e outros recursos são alocados de forma proporcional. Um aumento no tamanho da memória 
+aciona um aumento equivalente na CPU disponível para sua função.
