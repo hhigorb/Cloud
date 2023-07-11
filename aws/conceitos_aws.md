@@ -122,3 +122,7 @@ que você alocar para sua função.
 
 O único componente configurável no Lambda é a quantidade de memória que você quer para sua função. Capacidade de CPU e outros recursos são alocados de forma proporcional. Um aumento no tamanho da memória 
 aciona um aumento equivalente na CPU disponível para sua função.
+
+**Exemplos de custo da AWS Lambda:**
+
+![AWS Lambda](images/image16.png 'AWS Lambda')
