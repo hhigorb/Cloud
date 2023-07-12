@@ -178,3 +178,14 @@ Existem 2 tipos de APIs:
 ---
 
 ![AWS API Gateway](images/image26.png 'AWS API Gateway')
+
+## AWS SAM
+
+O AWS SAm ou Serveless Application Model é um framework open-source para construir aplicações serverless na AWS. Ele fornece sintaxe abreviada
+para expressar funções, APIs, bancos de dados e mapeamentos de origens de eventos.
+
+Basicamente, atráves de templates e linha de comando, conseguimos criar nossas aplicações serveless, testar localmente simulando o ambiente da AWS e fazer deploy de forma simplificada.
+
+Ele é integrado com ferramentas de desenvolvimento, a fim de facilitar ainda mais a vida do desenvolvedor. O AWS SAM executa o ambiente em containers do Docker, baixando as imagens direto da AWS. Nosso único trabalho é instalá-lo.
+
+
