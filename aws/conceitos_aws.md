@@ -114,7 +114,7 @@ Uma boa prática da utilização do Lambda é sempre escrever códigos enxutos, 
 
 ## Preços do Lambda
 
-Você é cobrado pelo número de solicitações de suas funções e pela duração, o tempo ue leva para que seu código seja executado. O Lambda conta uma solicitação cada vez que começa a executar em resposta
+Você é cobrado pelo número de solicitações de suas funções e pela duração, o tempo que leva para que seu código seja executado. O Lambda conta uma solicitação cada vez que começa a executar em resposta
 a uma notificação de evento ou chamada de invocação, incluindo invocações de teste do console.
 
 A duração é calculada a partir do momento em que seu código começa a ser executado até ele retornar ou encerrar, arredondando para os 100 ms mais próximos. O preço depende da quantidade de memória
@@ -126,3 +126,55 @@ aciona um aumento equivalente na CPU disponível para sua função.
 **Exemplos de custo da AWS Lambda:**
 
 ![AWS Lambda](images/image16.png 'AWS Lambda')
+
+## AWS API Gateway
+
+O AWS API Gateway é um serviço gerenciado que permite que desenvolvedores criem, publiquem, mantenham, monitorem e protejam APIS em qualquer escala com facilidade. Usando o API Gateway, você pode criar APIs
+RESTful e APIs WebSocket que habilitam aplicativos de comunicação bidirecionais em tempo real.
+
+O API Gateway dá suporte a cargas de trabalho conteinerizadas e sem servidor, além de aplicativos da web. Ele administra todas as tarefas envolvidas no recebimento e processamento de até centenas de milhares
+de chamadas de API simultâneas. Inclusive provém suporte a gerenciamento de tráfego, suporte de CORS, controle de autorização e acesso, com fluxo controlado, monitoramento e gerenciamento de versões de API.
+
+Não tem taxas mínimas ou custos antecipados. Você paga apenas pelas chamadas de API recebidas e pela quantidade transferida de dados de saída.
+
+## Como o API Gateway funciona?
+
+![AWS API Gateway](images/image17.png 'AWS API Gateway')
+
+Além disso, com o modelo de definição de preço em camadas do API Gateway, você pode reduzir os custos à medida que seu uso da API é escalado.
+
+Existem 2 tipos de APIs:
+
+![AWS API Gateway](images/image18.png 'AWS API Gateway')
+
+---
+
+![AWS API Gateway](images/image19.png 'AWS API Gateway')
+
+---
+
+![AWS API Gateway](images/image20.png 'AWS API Gateway')
+
+## Preços do API Gateway
+
+![AWS API Gateway](images/image21.png 'AWS API Gateway')
+
+---
+
+![AWS API Gateway](images/image22.png 'AWS API Gateway')
+
+**Exemplos de custo do AWS API Gateway:**
+
+![AWS API Gateway](images/image23.png 'AWS API Gateway')
+
+---
+
+![AWS API Gateway](images/image24.png 'AWS API Gateway')
+
+---
+
+![AWS API Gateway](images/image25.png 'AWS API Gateway')
+
+---
+
+![AWS API Gateway](images/image26.png 'AWS API Gateway')
