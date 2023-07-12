@@ -181,11 +181,73 @@ Existem 2 tipos de APIs:
 
 ## AWS SAM
 
-O AWS SAm ou Serveless Application Model é um framework open-source para construir aplicações serverless na AWS. Ele fornece sintaxe abreviada
+O AWS SAm ou Serveless Application Model é um framework open-source para construir aplicações Serverless na AWS. Ele fornece sintaxe abreviada
 para expressar funções, APIs, bancos de dados e mapeamentos de origens de eventos.
 
 Basicamente, atráves de templates e linha de comando, conseguimos criar nossas aplicações serveless, testar localmente simulando o ambiente da AWS e fazer deploy de forma simplificada.
 
 Ele é integrado com ferramentas de desenvolvimento, a fim de facilitar ainda mais a vida do desenvolvedor. O AWS SAM executa o ambiente em containers do Docker, baixando as imagens direto da AWS. Nosso único trabalho é instalá-lo.
 
+Documentação do SAM para caso de dúvidas: [AWS SAM](https://aws.amazon.com/serverless/sam/)
 
+## AWS IAM
+
+O AWS Identity and Access Management (IAM) permite que você gerencie com segurança o acesso aos serviços e recursos da AWS. Usando o IAM, você pode criar e gerenciar usuários e grupos da AWS e usar permissões para conceder e negar acesso a recursos da AWS.
+
+O IAM Permite que os usuários controlem o acesso às APIs de serviço e a recursos específicos da AWS. O IAM também permite que você adicione condições específicas, como a hora certa para controlar como um usuário pode usar a AWS, seu endereço IP de origem, se estão usando SSL ou se fizeram a autentição com um dispositivo de autentição multifator.
+
+![AWS IAM](images/image27.png 'AWS IAM')
+
+---
+
+![AWS IAM](images/image28.png 'AWS IAM')
+
+---
+
+![AWS IAM](images/image29.png 'AWS IAM')
+
+---
+
+![AWS IAM](images/image30.png 'AWS IAM')
+
+---
+
+![AWS IAM](images/image31.png 'AWS IAM')
+
+---
+
+![AWS IAM](images/image32.png 'AWS IAM')
+
+---
+
+![AWS IAM](images/image33.png 'AWS IAM')
+
+---
+
+![AWS IAM](images/image34.png 'AWS IAM')
+
+---
+
+![AWS IAM](images/image35.png 'AWS IAM')
+
+---
+
+![AWS IAM](images/image36.png 'AWS IAM')
+
+---
+
+**ATENÇÃO AO USO DE CREDENCIAIS EM PROJETOS**
+
+Temo que tomar muito cuidado ao subir qualquer tipo de código envolvendo AWS em repositórios.
+
+Uma prática muito comum (porem incorreta) é utilizar as credenciais da AWS no proprio projeto para permissionamento da aplicação.
+
+Se por um descuido, você publicar essas credenciais no GitHub (ou qualquer repositorio publico), você poderá perder muito dinheiro.
+
+Existem ferramentas maliciosas que ficam escaneando o GitHub para encontrar essas credenciais da AWS. Uma vez que eles encontrem, caso essas credenciais possuam acesso, irão criar diversos recursos para beneficio proprio (como instancias EC2, bancos de dados, e tudo que quiserem utilizar), resultando em um grande custo pra você.
+
+Portanto temos sempre que tomar muito cuidado e nunca enviarmos credenciais para repositorios.
+
+Mesmo que o repositorio seja privado, ainda é uma falha de segurança, pois caso voce esteja trabalhando em uma empresa que tenha as chaves no repositorio, alguem pode sair da empresa, guardar as chaves com ele, e também realizar ações maliciosas, como criar recursos, ou apagar os já existentes.
+
+SEMPRE prefira utilizar permissionamento de aplicações sem ser pelas credenciais, dando permissões direta aos recursos.
