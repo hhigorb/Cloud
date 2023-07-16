@@ -478,14 +478,14 @@ O CodeCommit permite que equipes de desenvolvimento colaborem de forma eficiente
 
 Algumas das principais características do AWS CodeCommit são:
 
-Controle de versão: O CodeCommit permite rastrear todas as alterações no código, facilitando a colaboração e a reversão de alterações indesejadas.
+**Controle de versão:** O CodeCommit permite rastrear todas as alterações no código, facilitando a colaboração e a reversão de alterações indesejadas.
 
-Segurança: Os repositórios do CodeCommit são protegidos usando autenticação baseada em IAM (Identity and Access Management), permitindo o controle granular de permissões de acesso. Além disso, os dados são criptografados em repouso e em trânsito.
+**Segurança:** Os repositórios do CodeCommit são protegidos usando autenticação baseada em IAM (Identity and Access Management), permitindo o controle granular de permissões de acesso. Além disso, os dados são criptografados em repouso e em trânsito.
 
-Integração com outros serviços AWS: O CodeCommit se integra perfeitamente com outros serviços da AWS, como AWS CodePipeline, AWS CodeBuild e AWS CodeDeploy, para criar pipelines de integração e entrega contínuas (CI/CD).
+**Integração com outros serviços AWS:** O CodeCommit se integra perfeitamente com outros serviços da AWS, como AWS CodePipeline, AWS CodeBuild e AWS CodeDeploy, para criar pipelines de integração e entrega contínuas (CI/CD).
 
-Escalabilidade e disponibilidade: O serviço é altamente escalável e gerenciado pela AWS, o que significa que não é necessário se preocupar com capacidade ou disponibilidade do servidor.
+**Escalabilidade e disponibilidade:** O serviço é altamente escalável e gerenciado pela AWS, o que significa que não é necessário se preocupar com capacidade ou disponibilidade do servidor.
 
-Integração com ferramentas Git: Como o CodeCommit é compatível com o Git, é possível usar várias ferramentas e clientes Git existentes para interagir com os repositórios, como a linha de comando Git, IDEs e ferramentas de desenvolvimento.
+**Integração com ferramentas Git:** Como o CodeCommit é compatível com o Git, é possível usar várias ferramentas e clientes Git existentes para interagir com os repositórios, como a linha de comando Git, IDEs e ferramentas de desenvolvimento.
 
-Notificações e integração com eventos: É possível configurar notificações baseadas em eventos para alertar sobre alterações no repositório, como confirmações de código, pull requests ou atualizações de branches.
+**Notificações e integração com eventos:** É possível configurar notificações baseadas em eventos para alertar sobre alterações no repositório, como confirmações de código, pull requests ou atualizações de branches.
