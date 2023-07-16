@@ -16,6 +16,8 @@ Também é projetada para ser segura e flexível, além de possuir uma infraestr
 A AWS utiliza o formato **Pay As You Go** - Pagamento conforme o uso. O que torna a plataforma completamente acessível. É cobrado pelo uso de recursos, ou seja,
 parou de utilizar, parou de pagar.
 
+É importante consultar o preço de cada serviço a ser utilizado. Cada serviço tem seu método de cobrança baseado no uso.
+
 ---
 
 ## Regiões, Zonas de Disponibilidades e Zonas Locais
@@ -181,7 +183,7 @@ Existem 2 tipos de APIs:
 
 ## AWS SAM
 
-O AWS SAm ou Serveless Application Model é um framework open-source para construir aplicações Serverless na AWS. Ele fornece sintaxe abreviada
+O AWS SAM ou Serveless Application Model é um framework open-source para construir aplicações Serverless na AWS. Ele fornece sintaxe abreviada
 para expressar funções, APIs, bancos de dados e mapeamentos de origens de eventos.
 
 Basicamente, atráves de templates e linha de comando, conseguimos criar nossas aplicações serveless, testar localmente simulando o ambiente da AWS e fazer deploy de forma simplificada.
@@ -251,3 +253,239 @@ Portanto temos sempre que tomar muito cuidado e nunca enviarmos credenciais para
 Mesmo que o repositorio seja privado, ainda é uma falha de segurança, pois caso voce esteja trabalhando em uma empresa que tenha as chaves no repositorio, alguem pode sair da empresa, guardar as chaves com ele, e também realizar ações maliciosas, como criar recursos, ou apagar os já existentes.
 
 SEMPRE prefira utilizar permissionamento de aplicações sem ser pelas credenciais, dando permissões direta aos recursos.
+
+## AWS DynamoDB 
+
+O Amazon DynamoDB é um banco de dados NoSQL (não relacional) que oferece alto desempenho para aplicações em qualquer escala.
+
+É um banco de dados durável, totalmente gerenciado com segurança, backup e restauração integrados, além de armazenamento em cache.
+
+O DynamoDB pode processar mais de 10 trilhões de solicitações por dia e comportar picos de mais de 20 milhões de solicitações por segundo!
+
+Empresas como Lyft, Airbnb, Samsung, Toyota, Netflix e muitas outras utilizam o AWS DynamoDB em seu dia-a-dia.
+
+![AWS DynamoDB](images/image37.png 'AWS DynamoDB')
+
+---
+
+![AWS DynamoDB](images/image38.png 'AWS DynamoDB')
+
+---
+
+![AWS DynamoDB](images/image39.png 'AWS DynamoDB')
+
+---
+
+![AWS DynamoDB](images/image40.png 'AWS DynamoDB')
+
+O DynamoDB criptografa todos os dados por padrão e oferece controle refinado de acesso e identidade em todas as suas tabelas. Você pode criar backups completos de centenas de terabytes de dados instantaneamente, sem impacto no desempenho de suas tabelas, e recuperar qualquer momento dos 35 dias anteriores sem tempo de inatividade.
+
+![AWS DynamoDB](images/image41.png 'AWS DynamoDB')
+
+## Como o DynamoDB funciona?
+
+![AWS DynamoDB](images/image42.png 'AWS DynamoDB')
+
+---
+
+![AWS DynamoDB](images/image43.png 'AWS DynamoDB')
+
+---
+
+![AWS DynamoDB](images/image44.png 'AWS DynamoDB')
+
+---
+
+![AWS DynamoDB](images/image45.png 'AWS DynamoDB')
+
+---
+
+![AWS DynamoDB](images/image46.png 'AWS DynamoDB')
+
+---
+
+![AWS DynamoDB](images/image47.png 'AWS DynamoDB')
+
+---
+
+![AWS DynamoDB](images/image48.png 'AWS DynamoDB')
+
+---
+
+![AWS DynamoDB](images/image49.png 'AWS DynamoDB')
+
+---
+
+![AWS DynamoDB](images/image50.png 'AWS DynamoDB')
+
+---
+
+![AWS DynamoDB](images/image51.png 'AWS DynamoDB')
+
+---
+
+![AWS DynamoDB](images/image52.png 'AWS DynamoDB')
+
+## AWS SQS
+
+O Amazon Simple Queue Service (SQS) é um serviço de filas de mensagens gerenciado que permite o desacoplamento e a escalabilidade de microsserviços, sistemas distribuídos e aplicativos sem servidor.
+
+O SQS elimina a complexidade e a sobrecarga associadas ao gerenciamento e à operação de middleware orientado a mensagens.
+
+Use o SQS para enviar, armazenar e receber mensagens entre componentes de software em qualquer volume, sem perder mensagens ou precisar que outros serviços estejam disponíveis.
+
+O SQS oferece dois tipos de filas de mensagens:
+
+![AWS SQS](images/image53.png 'AWS SQS')
+
+---
+
+![AWS SQS](images/image54.png 'AWS SQS')
+
+---
+
+![AWS SQS](images/image55.png 'AWS SQS')
+
+---
+
+![AWS SQS](images/image56.png 'AWS SQS')
+
+---
+
+![AWS SQS](images/image57.png 'AWS SQS')
+
+---
+
+![AWS SQS](images/image58.png 'AWS SQS')
+
+---
+
+![AWS SQS](images/image59.png 'AWS SQS')
+
+---
+
+![AWS SQS](images/image60.png 'AWS SQS')
+
+---
+
+![AWS SQS](images/image61.png 'AWS SQS')
+
+## AWS SNS
+
+O Amazon Simple Notification Service (SNS) é um serviço de mensagens totalmente gerenciado para comunicação de sistema para sistema e de aplicativo para pessoa (A2P).
+
+Ele permite que você se comunique entre sistemas por meio de padrões de publicação/assinatura (pub/sub).
+
+Ele permite mensagens entre aplicativos de microsserviços dissociados ou para se comunicar diretamente com os usuários via SMS, push móvel e e-mail.
+
+A funcionalidade de pub/sub de sistema para sistema fornece tópicos para mensagens de alto rendimento, baseadas em push e de muitos-para-muitos.
+
+Usando tópicos do Amazon SNS, seus sistemas editores podem espalhar mensagens para um grande número de sistemas de assinantes ou endpoints de clientes.
+
+Incluindo filas do Amazon SQS, funções do AWS Lambda e HTTP/S, para processamento paralelo.
+
+![AWS SNS](images/image62.png 'AWS SNS')
+
+## Amazon S3
+
+O Amazon Simple Storage Service (Amazon S3) é um serviço de armazenamento de objetos que oferece escalabilidade líder do setor, disponibilidade de dados, segurança e performance.
+
+Isso significa que clientes de todos os tamanhos e setores podem usá-lo para armazenar qualquer volume de dados em uma grande variedade de casos de uso, como sites, aplicações para dispositivos móveis, backup e restauração, arquivamento, aplicações empresariais, dispositivos IoT e análises de Big Data.
+
+O Amazon S3 foi projetado para 99,99% de durabilidade e armazena dados para milhões de aplicativos para empresas de todo o mundo.
+
+![AWS S3](images/image63.png 'AWS S3')
+
+---
+
+![AWS S3](images/image64.png 'AWS S3')
+
+---
+
+![AWS S3](images/image65.png 'AWS S3')
+
+O S3 Standard oferece um armazenamento de objetos com altos níveis de resiliência, disponibilidade e performance para dados acessados com frequência. Como fornece baixa latência e alto throughput, o S3 Standard é adequado para uma grande variedade de casos de uso, como aplicativos na nuvem, sites dinâmicos, distribuição de contéudo, aplicativos móveis, jogos e dados analíticos de Big Data.
+
+Já o S3 Standard-Infrequent Access (S3 Standard-IA) é indicado para dados acessados com menos frequência, mas que exigem acesso rápdio quando necessários. Ela oferece os altos níveis de resiliência e throughput e a baixa latência do S3 Standard. A combinação de baixo custo e a alta performance a tornam ideal para armazenamento de longa duração, backups e datastores para arquivos de recuperação de desastres.
+
+O S3 One Zone-Infrequent Access (S3 One Zone-IA) ao contrário de outras classes de armazenamento do S3, que armazenam dados em no mínimo três Zonas de Disponibilidade (AZs), armazena dados em uma única AC. ELa é uma opção de menor custo para dados acessados com pouca frequência, mas não precisam da disponibilidade e da resiliência S3 Standard ou S3 Standard-IA.
+
+O S3 Intelligent-Tiering foi projetado para otimizar os custos movendo automaticamente os dados para o nível de acesso mais econômico, sem impacto na performance ou sobrecarga operacional. Ela funciona a partir do armazenamento de objetos em dois níveis de acesso: um nível é otimizado para acesso frequente e outro nível de custo mais baixo, que é otimizado para acesso infrequente.
+
+O S3 Glacier é uma classe de armazenamento segura, durável e de baixo custo para arquivamento de dados. Você pode armazenar com confiabilidade qualquer volume de dados a um custo competitivo ou inferior ao custo de soluções no local. Para manter os custos baixos, mas com condições de suprir necessidades variáveis, o S3 Glacier disponibiliza três opções de recuperação, que podem levar de alguns minutos a várias horas.
+
+Já o S3 Glacier Deep Archive é a classe de armazenamento mais barata do Amazon S3 e oferece suporte à retenção e preservação digitais de longo prazo para dados que podem ser acessados uma ou duas vezes por ano. Essa classe é projetaa para clientes que mantêm conjuntos de dados por 7 a 10 anos ou mais para cumprir requisitos de conformidade normativa, e podem ser restaurados em até 12 horas.
+
+## AWS Cloud Watch
+
+O Cloud Watch é um serviço de monitoramento para recursos em nuvem AWS. Você pode usá-lo para coletar e rastrear métricas, coletar e monitorar arquivos de log e definir alarmes.
+
+Você pode usá-lo para obter visibilidade sobre a utilização de recursos, a performance de aplicativos e o status operacional em todo o sistema.
+
+É possível usar essas percepções para reagir e manter seu aplicativo em execução tranquilamente. 
+
+Ele pode monitorar recursos da AWS como instâncias do Amazon EC2, tabelas do Amazon DynamoDB, funções Lambda, dentre outros.
+
+É possível usar o Cloud Watch para detectar comportamento anormal em seus ambientes, definir alarmes, visualizar logs, métricas lado a lado, executar ações automatizadas, resolver problemas e descobrir insights para manter seus aplicativos em perfeita execução.
+
+É simples monitorar seus recursos e aplicativos da AWS com o Cloud Watch. Ele se integra nativamente com mais de 70 serviços da AWS, como EC2, DynamoDB, S3, ECS, EKS e AWS Lambda, além de publicar automaticamente métricas detalhadas de um minuto e métricas personalizadas com até um segundo de granularidade.
+
+![AWS Cloud Watch](images/image66.png 'AWS Cloud Watch')
+
+## AWS Step Functions
+
+O AWS Step Functions é um orquestrador de funções sem servidor que facilita o sequenciamento de funções do AWS Lambda e vários serviços da AWS.
+
+Por meio da interface visual, você cria e executa uma série de fluxos de trabalho com ponto de verificação e orientados a evento que mantém o estado da aplicação.
+
+A saída de uma etapa serve de entrada para a próxima. Cada etapa da aplicação é executada em sequência e conforme esperado pela lógica de negócios definida.
+
+O Step Functions gerencia automaticamente o tratamento de erros, a lógica de novas tentativas e o estado.
+
+Ele ajuda a garantir que **trabalhos de ETL** múltiplos e prolongados sejam executados em ordem e concluídos com sucesso, em vez de organizar manualmente esses trabalhos ou manter um aplicativo separado.
+
+Também é possível usar o Step Functions para padronizar um fluxo de trabalho de treinamento de Machine Learning para aumentar a precisão dos modelos de Machine Learning.
+
+O Step Functions tem dois tipos de fluxos de trabalho: Standard Workflows e Express Workflows.
+
+![AWS Step Functions](images/image67.png 'AWS Step Functions')
+
+---
+
+![AWS Step Functions](images/image68.png 'AWS Step Functions')
+
+## AWS Cloud Formation
+
+O AWS Cloud Formation oferece uma linguagem comum para modelar e provisionar recursos de infraestrutura da AWS e terceirizados em um ambiente de nuvem.
+
+Ele permite usar linguagens de programação ou um arquivo de texto simples para modelar e provisionar de forma automática e segura todos os recursos necessários.
+
+Ele provisiona recursos de forma segura e replicável, permitindo criar e recriar a sua infraestrutura e aplicativos, sem precisar executar ações manuais ou gravar scripts personalizados.
+
+Isso cria uma única fonte confiável para concentrar os seus recursos de infraestrutura.
+
+![AWS Cloud Formation](images/image69.png 'AWS Cloud Formation')
+
+Dessa forma, podemos replicar nosso ambiente com facilidade, sem nos preocuparmos se tudo foi recriado da forma como estava.
+
+## Outros serviços também úteis
+
+## AWS Code Commit
+
+O AWS CodeCommit é um serviço de hospedagem de repositório de controle de versão totalmente gerenciado pela Amazon Web Services (AWS). Ele fornece um ambiente seguro e escalável para armazenar e gerenciar o código-fonte de aplicativos e projetos de software.
+
+O CodeCommit permite que equipes de desenvolvimento colaborem de forma eficiente no desenvolvimento de software. Ele suporta repositórios Git, um sistema de controle de versão distribuído amplamente utilizado, que permite rastrear e gerenciar alterações no código ao longo do tempo.
+
+Algumas das principais características do AWS CodeCommit são:
+
+Controle de versão: O CodeCommit permite rastrear todas as alterações no código, facilitando a colaboração e a reversão de alterações indesejadas.
+
+Segurança: Os repositórios do CodeCommit são protegidos usando autenticação baseada em IAM (Identity and Access Management), permitindo o controle granular de permissões de acesso. Além disso, os dados são criptografados em repouso e em trânsito.
+
+Integração com outros serviços AWS: O CodeCommit se integra perfeitamente com outros serviços da AWS, como AWS CodePipeline, AWS CodeBuild e AWS CodeDeploy, para criar pipelines de integração e entrega contínuas (CI/CD).
+
+Escalabilidade e disponibilidade: O serviço é altamente escalável e gerenciado pela AWS, o que significa que não é necessário se preocupar com capacidade ou disponibilidade do servidor.
+
+Integração com ferramentas Git: Como o CodeCommit é compatível com o Git, é possível usar várias ferramentas e clientes Git existentes para interagir com os repositórios, como a linha de comando Git, IDEs e ferramentas de desenvolvimento.
+
+Notificações e integração com eventos: É possível configurar notificações baseadas em eventos para alertar sobre alterações no repositório, como confirmações de código, pull requests ou atualizações de branches.
