@@ -17,6 +17,7 @@ GCP:
   - Data Transfer Service
   - Storage Transfer Service
   - Database Migration Service
+  - Google Kubernetes Engine (GKE)
 AWS:
   - S3
   - Redshift
@@ -33,3 +34,4 @@ AWS:
   - Data Pipeline
   - Amazon Managed Workflows for Apache Airflow (MWAA)
   - DMS
+  - Elastic Kubernetes Service (EKS)
