@@ -34,4 +34,6 @@ AWS:
   - Data Pipeline
   - Amazon Managed Workflows for Apache Airflow (MWAA)
   - DMS
+  - SQS
+  - SNS
   - Elastic Kubernetes Service (EKS)
