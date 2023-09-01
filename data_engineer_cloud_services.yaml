@@ -6,6 +6,7 @@ GCP:
   - Cloud Storage
   - Cloud Pub/Sub
   - Data Fusion
+  - DataFlow
   - Dataproc
   - Composer
   - Cloud Run
