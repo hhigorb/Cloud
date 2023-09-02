@@ -24,6 +24,7 @@ AWS:
   - Redshift
   - Kinesis
   - Lambda
+  - Step Functions
   - Glue
   - EMR
   - CloudWatch
