@@ -1,5 +1,7 @@
 # Alguns serviços úteis da GCP e AWS para Engenharia de Dados
 
+# A AWS oferece o Marketplace: uma loja de software on-line que ajuda os clientes a localizarem, comprarem e começarem imediatamente a usar o software e serviços que são executados na AWS.
+
 GCP:
   - BigQuery
   - BigTable
