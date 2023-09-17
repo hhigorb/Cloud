@@ -4,6 +4,7 @@
 
 GCP:
   - BigQuery
+  - GCP VPC
   - BigTable
   - Cloud Storage
   - Cloud Pub/Sub
@@ -23,6 +24,7 @@ GCP:
   - Google Kubernetes Engine (GKE)
 AWS:
   - S3
+  - AWS VPC
   - Redshift
   - Kinesis
   - Lambda
