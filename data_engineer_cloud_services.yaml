@@ -3,6 +3,7 @@
 # A AWS oferece o Marketplace: uma loja de software on-line que ajuda os clientes a localizarem, comprarem e começarem imediatamente a usar o software e serviços que são executados na AWS.
 
 GCP:
+  - IAM
   - BigQuery
   - GCP VPC
   - BigTable
@@ -23,6 +24,7 @@ GCP:
   - Database Migration Service
   - Google Kubernetes Engine (GKE)
 AWS:
+  - IAM
   - S3
   - AWS VPC
   - Redshift
