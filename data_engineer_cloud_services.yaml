@@ -29,6 +29,7 @@ AWS:
   - AWS VPC
   - Redshift
   - Kinesis
+  - Cloud Formation
   - Lambda
   - Step Functions
   - Glue
