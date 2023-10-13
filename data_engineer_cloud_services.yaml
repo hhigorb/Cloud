@@ -6,6 +6,8 @@ GCP:
   - IAM
   - BigQuery
   - GCP VPC
+  - Cloud Monitoring
+  - Secret Manager
   - BigTable
   - Cloud Storage
   - Cloud Pub/Sub
