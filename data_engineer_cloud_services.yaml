@@ -8,12 +8,14 @@ GCP:
   - GCP VPC
   - Cloud Monitoring
   - Secret Manager
+  - Firebase Cloud Messaging
   - BigTable
   - Cloud Storage
   - Cloud Pub/Sub
   - Data Fusion
   - DataFlow
   - Dataproc
+  - Deployment Manager
   - Composer
   - Cloud Run
   - Cloud Functions
