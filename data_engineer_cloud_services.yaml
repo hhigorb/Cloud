@@ -45,6 +45,7 @@ AWS:
   - EC2
   - ECS
   - DynamoDB
+  - Fargate
   - RDS
   - Data Pipeline
   - Amazon Managed Workflows for Apache Airflow (MWAA)
