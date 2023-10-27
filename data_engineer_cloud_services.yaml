@@ -37,6 +37,7 @@ AWS:
   - Kinesis
   - Cloud Formation
   - Lambda
+  - Lake Formation
   - Step Functions
   - Glue
   - EMR
