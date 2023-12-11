@@ -30,6 +30,7 @@ GCP:
   - Storage Transfer Service
   - Database Migration Service
   - Google Kubernetes Engine (GKE)
+  - API Gateway
 AWS:
   - IAM
   - S3
@@ -56,3 +57,5 @@ AWS:
   - SQS
   - SNS
   - Elastic Kubernetes Service (EKS)
+  - API Gateway
+  - EventBridge
