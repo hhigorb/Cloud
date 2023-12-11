@@ -47,6 +47,7 @@ AWS:
   - Athena
   - EC2
   - ECS
+  - ECR
   - DynamoDB
   - Fargate
   - RDS
