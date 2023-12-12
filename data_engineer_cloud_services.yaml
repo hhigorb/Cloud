@@ -31,6 +31,7 @@ GCP:
   - Database Migration Service
   - Google Kubernetes Engine (GKE)
   - API Gateway
+  - Secret Manager
 AWS:
   - IAM
   - S3
@@ -60,3 +61,4 @@ AWS:
   - Elastic Kubernetes Service (EKS)
   - API Gateway
   - EventBridge
+  - Secret Manager
