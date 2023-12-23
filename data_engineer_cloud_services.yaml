@@ -11,6 +11,7 @@ GCP:
   - Secret Manager
   - Firebase Cloud Messaging
   - BigTable
+  - BigLake
   - Cloud Storage
   - Cloud Pub/Sub
   - Data Fusion
