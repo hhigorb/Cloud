@@ -20,6 +20,7 @@ GCP:
   - Deployment Manager
   - Composer
   - Cloud Run
+  - Cloud Build
   - Cloud Spanner
   - Cloud Functions
   - Compute Engine
