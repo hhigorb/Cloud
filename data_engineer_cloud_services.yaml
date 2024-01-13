@@ -18,6 +18,7 @@ GCP:
   - DataFlow
   - Dataproc
   - Dataprep
+  - Dataform
   - Deployment Manager
   - Composer
   - Cloud Run
