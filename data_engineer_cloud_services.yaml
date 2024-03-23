@@ -55,6 +55,7 @@ AWS:
   - DynamoDB
   - Fargate
   - RDS
+  - Aurora
   - Data Pipeline
   - Amazon Managed Workflows for Apache Airflow (MWAA)
   - Amazon Managed Streaming for Apache Kafka (MSK)
