@@ -65,4 +65,5 @@ AWS:
   - API Gateway
   - EventBridge
   - Secret Manager
+  - KMS
   - CodeCommit
