@@ -67,3 +67,4 @@ AWS:
   - Secret Manager
   - KMS
   - CodeCommit
+  - CodePipeline
