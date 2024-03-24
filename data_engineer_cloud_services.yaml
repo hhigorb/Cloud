@@ -8,7 +8,6 @@ GCP:
   - BigQuery
   - GCP VPC
   - Cloud Monitoring
-  - Secret Manager
   - Firebase Cloud Messaging
   - BigTable
   - BigLake
