@@ -68,3 +68,4 @@ AWS:
   - KMS
   - CodeCommit
   - CodePipeline
+  - CodeBuild
