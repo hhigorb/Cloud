@@ -52,6 +52,7 @@ AWS:
   - ECS
   - ECR
   - DynamoDB
+  - DocumentDB
   - Fargate
   - RDS
   - Aurora
