@@ -9,6 +9,7 @@ GCP:
   - GCP VPC
   - Cloud Monitoring
   - Firebase Cloud Messaging
+  - Firebase Realtime Database
   - BigTable
   - BigLake
   - Cloud Storage
