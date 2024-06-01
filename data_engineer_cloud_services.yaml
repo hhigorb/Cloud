@@ -42,6 +42,7 @@ AWS:
   - S3
   - AWS VPC
   - Redshift
+  - Appflow
   - Kinesis
   - Cloud Formation
   - Lambda
